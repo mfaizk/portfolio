@@ -19,8 +19,15 @@ nav {
   height: 30px;
   margin-left: auto;
   width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.nav-menu-button-img {
+  height: 25px;
+  margin-left: auto;
+  width: 25px;
+}
 .nav-list {
   background-color: #2827cc;
   display: flex;
@@ -60,11 +67,23 @@ nav {
   .nav-logos {
     padding: 10px;
   }
-  .nav-menu-button {
-    display: inline;
-  }
+
   .nav-menu-button:focus,
   .nav-list {
     display: flex;
+  }
+
+  .nav-menu-button {
+    height: 30px;
+    margin-left: auto;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-menu-button-img {
+    height: 25px;
+    margin-left: auto;
+    width: 25px;
   }
 }
